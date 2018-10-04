@@ -78,5 +78,10 @@ def write_tfrecord(tfr):
 
 
 if __name__ == '__main__':
+    try:
+        os.mkdir('./tfrecord')
+    except FileExistsError:
+        pass
     tfr = TFRecord({'img': [bytes], 'labels': [int] * 36})
     write_tfrecord(tfr)
+    os.rename('./tfrecord/2.tfrecord', './tfrecord/2.tfrecords')
