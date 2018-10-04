@@ -41,11 +41,9 @@ vf20
 ```
 
 ## 運行環境及時間
-> 版本 MacBook Pro 2016
+> MacBook Pro
 >
-> 處理器 2.9 GHz Intel Core i5
->
-> 內存 8 GB 2133 MHz LPDDR3
+> Python3.5 
 >
 > 訓練時間 60s
 >
